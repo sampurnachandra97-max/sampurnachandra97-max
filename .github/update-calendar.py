@@ -43,23 +43,6 @@ for day in days:
     color = palette[min(count, len(palette) - 1)]
     day.set("style", f"fill:{color};shape-rendering:crispedges;")
 
-namespace = f"{{{SVG}}}"
-chart.set("height", str(int(chart.attrib["height"]) + 24))
-legend = ElementTree.SubElement(chart, namespace + "g", {"aria-label": "Contributions per day"})
-for index, (color, label) in enumerate(zip(palette, ("0", "1", "2", "3", "4+"))):
-    x = 458 + 39 * index
-    swatch = ElementTree.SubElement(
-        legend, namespace + "rect",
-        {"x": str(x), "y": "109", "width": "10", "height": "10", "rx": "2",
-         "fill": color, "stroke": "#788391", "stroke-width": "0.5"},
-    )
-    ElementTree.SubElement(swatch, namespace + "title").text = f"{label} contributions"
-    ElementTree.SubElement(
-        legend, namespace + "text",
-        {"x": str(x + 14), "y": "118", "fill": "#788391",
-         "font-size": "10", "font-family": "system-ui,sans-serif"},
-    ).text = label
-
 ElementTree.register_namespace("", SVG)
 Path("contribution-calendar-counts.svg").write_bytes(
     ElementTree.tostring(chart, encoding="utf-8") + b"\n"
