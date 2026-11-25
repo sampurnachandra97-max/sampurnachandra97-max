@@ -2,13 +2,11 @@
 
 <img src="cat.gif" alt="Animated cat" width="160">
 
-I'm an AI/ML engineer based in Kolkata. I build full-stack and AI projects, from early ideas to the backend that keeps them running. I lead social media at S4DS.
-
-Off the keyboard, it's usually cats, Barça, or biryani.
+I'm an AI/ML engineer based in Kolkata. I build full-stack and AI projects, from early ideas to the backend that keeps them running.
 
 ### tech stack
 
-TypeScript · React · Next.js · Tailwind CSS · CSS Modules
+![TypeScript, React, Next.js, Tailwind CSS, and CSS](https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,css)
 
 ### github contributions
 
