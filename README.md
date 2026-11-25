@@ -9,5 +9,5 @@
 <h3 align="left">github contributions</h3>
 
 <p align="left">
-  <a href="https://github.com/sampurnachandra97-max#contributions"><img src="contribution-calendar-counts.svg" alt="GitHub contribution calendar"></a>
+  <a href="https://github.com/sampurnachandra97-max#contributions"><img src="contribution-calendar-rounded.svg" alt="GitHub contribution calendar"></a>
 </p>

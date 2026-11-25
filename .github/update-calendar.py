@@ -45,6 +45,6 @@ for day in days:
     day.set("style", f"fill:{color};")
 
 ElementTree.register_namespace("", SVG)
-Path("contribution-calendar-counts.svg").write_bytes(
+Path("contribution-calendar-rounded.svg").write_bytes(
     ElementTree.tostring(chart, encoding="utf-8") + b"\n"
 )
