@@ -17,7 +17,7 @@ jobs:
         run: python .github/update-calendar.py
       - name: Commit updated calendar
         run: |
-          git add -- contribution-calendar-pink.svg
+          git add -- contribution-calendar-counts.svg
           if git diff --cached --quiet; then exit 0; fi
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh contribution calendar'
           git push origin HEAD
