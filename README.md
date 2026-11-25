@@ -3,7 +3,7 @@
 <h3 align="left">tech stack</h3>
 
 <p align="left">
-  <img src="tech-stack-one-row.svg" width="540" alt="Python, C++, SQL, C, React, Next.js, Antigravity, Claude, Canva, and Codex">
+  <img src="tech-stack-color.svg" width="800" alt="Python, C++, SQL, C, React, Next.js, Antigravity, Claude, Canva, and Codex">
 </p>
 
 <h3 align="left">github contributions</h3>
