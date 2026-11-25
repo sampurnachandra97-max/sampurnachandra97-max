@@ -9,5 +9,5 @@
 <h3 align="left">github contributions</h3>
 
 <p align="left">
-  <a href="https://github.com/sampurnachandra97-max#contributions"><img src="https://ghchart.rshah.org/2ea043/sampurnachandra97-max" alt="GitHub contribution calendar"></a>
+  <a href="https://github.com/sampurnachandra97-max#contributions"><img src="https://ghchart.rshah.org/ec4899/sampurnachandra97-max" alt="GitHub contribution calendar"></a>
 </p>
