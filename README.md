@@ -1,8 +1,4 @@
-﻿# hey, i'm sampurna
-
-<img src="cat.gif" alt="Animated cat" width="160">
-
-I'm an AI/ML engineer based in Kolkata. I build full-stack and AI projects, from early ideas to the backend that keeps them running.
+﻿<h1><img src="cat.gif" alt="Animated cat" width="160"> hey, i'm sampurna</h1>
 
 ### tech stack
 
