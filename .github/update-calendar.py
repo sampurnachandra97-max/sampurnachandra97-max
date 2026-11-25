@@ -11,8 +11,12 @@ days = chart.findall(f"{{{SVG}}}rect[@data-score][@data-date]")
 if chart.tag != f"{{{SVG}}}svg" or not 350 <= len(days) <= 380:
     raise ValueError("Unexpected contribution calendar format")
 
+# Keep GitHub-style intensity levels, using pink for active days.
+palette = ("#000000", "#fbcfe8", "#f9a8d4", "#ec4899", "#be185d")
 for day in days:
-    color = "#000000" if int(day.attrib["data-score"]) == 0 else "#ec4899"
+    score = int(day.attrib["data-score"])
+    level = sum(score >= minimum for minimum in (1, 2, 5, 10))
+    color = palette[level]
     day.set("style", f"fill:{color};shape-rendering:crispedges;")
 
 ElementTree.register_namespace("", SVG)
