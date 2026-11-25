@@ -41,7 +41,8 @@ for day in days:
     count = counts_by_date.get(date, 0)
     day.set("data-count", str(count))
     color = palette[min(count, len(palette) - 1)]
-    day.set("style", f"fill:{color};shape-rendering:crispedges;")
+    day.set("rx", "2")
+    day.set("style", f"fill:{color};")
 
 ElementTree.register_namespace("", SVG)
 Path("contribution-calendar-counts.svg").write_bytes(
