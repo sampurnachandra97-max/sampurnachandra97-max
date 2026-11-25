@@ -2,7 +2,7 @@
 
 <img src="cat.gif" alt="Animated cat" width="160">
 
-I'm an AI/ML engineer based in Kolkata. I build full-stack and AI projects, from early ideas to the backend that keeps them running. I study at Adamas University and lead social media at S4DS.
+I'm an AI/ML engineer based in Kolkata. I build full-stack and AI projects, from early ideas to the backend that keeps them running. I lead social media at S4DS.
 
 Off the keyboard, it's usually cats, Barça, or biryani.
 
