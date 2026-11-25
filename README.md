@@ -1,18 +1,13 @@
-﻿<h1><img src="cat.gif" alt="Animated cat" width="160"> hey, i'm sampurna</h1>
+<h3 align="center"><img src="cat.gif" alt="Animated cat" width="160" align="middle"> hey, i'm sampurna</h3>
 
-### tech stack
+<h3 align="center">tech stack</h3>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
-![C](https://img.shields.io/badge/C-3949AB?style=flat-square&logo=c&logoColor=white)
-![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-A84E33?style=flat-square&logo=claude&logoColor=white)
-![Canva](https://custom-icon-badges.demolab.com/badge/Canva-087C86?style=flat-square&logo=canva&logoColor=white)
-![Codex](https://custom-icon-badges.demolab.com/badge/Codex-262626?style=flat-square&logo=openai&logoColor=white)
+<p align="center">
+  <img src="tech-stack.svg" width="470" alt="Python, C++, SQL, C, React, Next.js, Antigravity, Claude, Canva, and Codex">
+</p>
 
-### GitHub contributions
+<h3 align="center">github contributions</h3>
 
-[![My GitHub contribution graph](https://ghchart.rshah.org/2ea043/sampurnachandra97-max)](https://github.com/sampurnachandra97-max#contributions)
+<p align="center">
+  <a href="https://github.com/sampurnachandra97-max#contributions"><img src="https://ghchart.rshah.org/2ea043/sampurnachandra97-max" alt="GitHub contribution calendar"></a>
+</p>
